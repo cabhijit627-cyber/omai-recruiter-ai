@@ -1,116 +1,109 @@
-\# OMAI Recruiter AI
+# OMAI Recruiter AI
 
+AI-Powered Candidate Discovery & Ranking System built for the INDIA RUNS Data & AI Challenge by Hack2Skill × Redrob.
 
+## Overview
 
-AI-powered candidate discovery and ranking system built for the INDIA RUNS Data \& AI Challenge by Hack2Skill × Redrob.
-
-
-
-\## Overview
-
-
-
-OMAI Recruiter AI helps recruiters identify the best candidates by understanding the actual meaning of a job description instead of relying only on keyword matching.
-
-
+OMAI Recruiter AI helps recruiters discover the best candidates by understanding the actual meaning of a job description instead of relying only on keyword matching.
 
 The system evaluates:
 
+* Semantic relevance to the job description
+* Skills and experience
+* Career history
+* Candidate intelligence
+* Behavioral signals
+* Recruiter-focused ranking
 
+## Features
 
-\* Semantic relevance to the job description
+* Intelligent Candidate Ranking
+* Semantic Matching
+* Experience-Based Evaluation
+* Skill Alignment Scoring
+* Explainable AI Recommendations
+* CSV Submission Generation
+* Validation Support
+* Interactive Recruiter Dashboard
 
-\* Skills and experience
+## Technology Stack
 
-\* Career history
+* Python
+* Pandas
+* Scikit-Learn
+* Sentence Transformers
+* Streamlit
+* Plotly
+* GitHub
 
-\* Behavioral signals
+## Project Structure
 
-\* Recruiter engagement metrics
+* `app.py` – Interactive Recruiter Dashboard
+* `ranker.py` – AI Candidate Ranking Engine
+* `validate_submission.py` – Submission Validator
+* `job_description.docx` – Challenge Job Description
+* `requirements.txt` – Project Dependencies
 
-\* Availability and hiring readiness
+## Dashboard Features
 
+* Top Candidate Leaderboard
+* Candidate Search
+* Score Visualization
+* Explainable AI Insights
+* Downloadable Ranked CSV
+* Recruiter Analytics
 
+## How To Run
 
-\## Features
-
-
-
-\* Intelligent Candidate Ranking
-
-\* Behavioral Signal Scoring
-
-\* Experience Matching
-
-\* Skill-Based Evaluation
-
-\* Explainable Ranking Output
-
-\* CSV Submission Generation
-
-\* Validation Support
-
-
-
-\## Technology Stack
-
-
-
-\* Python
-
-\* Scikit-Learn
-
-\* Pandas
-
-\* Sentence Transformers
-
-\* GitHub
-
-
-
-\## Project Structure
-
-
-
-ranker.py – Candidate ranking engine
-
-
-
-validate\_submission.py – Submission validator
-
-
-
-job\_description.docx – Challenge job description
-
-
-
-submission.csv – Generated ranking output
-
-
-
-\## How To Run
-
-
+Install dependencies:
 
 ```bash
-
-python ranker.py
-
-python validate\_submission.py submission.csv
-
+pip install -r requirements.txt
 ```
 
+Generate rankings:
 
+```bash
+python ranker.py
+```
 
-\## Challenge
+Validate submission:
 
+```bash
+python validate_submission.py submission.csv
+```
 
+Launch dashboard:
 
-INDIA RUNS – Data \& AI Challenge
+```bash
+streamlit run app.py
+```
 
+## Results
 
+* AI-Powered Candidate Ranking
+* Top 100 Candidate Recommendations
+* Explainable AI-Based Decision Making
+* Interactive Recruiter Dashboard
+* Downloadable Ranked Output
+
+## Future Roadmap
+
+* Resume PDF Parsing
+* AI Candidate Summaries
+* Interview Question Generator
+* Multi-Language Support
+* ATS & HRMS Integration
+* Predictive Hiring Analytics
+
+## Challenge
+
+INDIA RUNS – Data & AI Challenge
 
 Build an AI system that ranks candidates the way a great recruiter would.
 
+## Author
 
+**Abhijit Chavan**
 
+OMAI Recruiter AI – INDIA RUNS 2026
